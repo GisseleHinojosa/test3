@@ -51,6 +51,9 @@ blockquote {
 
 .season-guests {
     border-radius: 10px;
-    padding: 10px;
-    background-color: #f6bb73;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border: 5px double var(--global-color-1);
 }
