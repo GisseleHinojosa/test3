@@ -1,0 +1,56 @@
+
+:root {
+    --global-color-1: #800000;
+}
+
+a:hover, a:focus {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: #931420;
+    color: white;
+    padding: 15px;
+    border-top: 3px solid #931420;
+    position: relative; 
+    width: 100%;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px var(--global-color-1);
+}
+
+h1, h3:not(.month) {
+    color: var(--global-color-1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 1.5em 0 2em 0;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    border-bottom: 3px solid #931420; 
+    border-radius: 10px 10px 0 0;
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+.season-guests {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f6bb73;
+}
